@@ -35,6 +35,9 @@ cost function
 
 Gradient Descent - minminze cost
  + w = w - alphaa * d/dxJ(w,b)
- + alpha - learning rate
+ + alpha - learning rate (if too small then the alg. will take too long, if too large, we can overshoot)
  + d/dxJ(w,b) - learning rate (size of steps and direction we go)
+  + repeat until convergence
+
+Batch GD - each step of gd uses all the training examples
 
