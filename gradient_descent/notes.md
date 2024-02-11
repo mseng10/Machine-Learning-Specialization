@@ -41,3 +41,20 @@ Gradient Descent - minminze cost
 
 Batch GD - each step of gd uses all the training examples
 
+Multiple Features GD - Take in multiple features of X (multtiple inputs)
++ x (j, i) - jth feature, ith training example
++ f w,b (x) = w1x1 + w2x2 + w3x3 + w4x4 + b = w . x + b (dot product)
++ W and X are row vectors in this case
+
+Feature Scaling - 
++ typically the larger the feature, the smaller the w
++ reduce all x ranges (x js) to be be between 0, 1
++ mean normalization - find average![Alt text](./assets/mean_norm.png)
++ z score normalization - ![Alt text](./assets/z_score_norm.png)
+
+Is it converging?![Alt text](./assets/converge.png)
++ chooose an epsilon value that is near 0 in case the convergence ever occurs at exactly 0
+
+Chossing Learning Rate
++ 
+
