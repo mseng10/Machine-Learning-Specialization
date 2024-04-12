@@ -1,0 +1,13 @@
+Nueron - processes a data point
+Layer - group of neurons that process similar points
+Output Layer - output layer from another layer (desired output)
+Input Layaer - features, data input, etc..
+Hidden Layer - layer in the middle (some value in between x and y)
+
+Super script - means the layer we're on (oh yeah more indices)
+Sum of layers - sum of hidden + output (1)
+
+a_j [l] = g(w_j[l] . a[l-1] + b_j[l]
+
+forward propogation - moving left to right
+unit - index of the layer (j above)
