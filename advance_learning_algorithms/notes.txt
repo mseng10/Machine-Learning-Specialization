@@ -16,10 +16,12 @@ later_1 = Dense(unit = 3, activation='sigmong')
 layer_2 = Dense(unti = 1, activation='sigmong)
 model = Sequential([layer_1, layer_2])
 
-model.compile()
-model.fit(x,y)
+model.compile() - specify the loss function
+model.fit(x,y) - eposh (number of steps)
 model.predict(x_new)
 
 ANI = artifial narrow intelligence, narrow task
 AGI = artifical general intelligence, do anything a human can do
+
+
 
