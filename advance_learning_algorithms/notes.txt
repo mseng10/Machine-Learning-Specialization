@@ -23,5 +23,34 @@ model.predict(x_new)
 ANI = artifial narrow intelligence, narrow task
 AGI = artifical general intelligence, do anything a human can do
 
+Steps:
+1 - Create the model
+2 - Loss and cost functions
+  + BinaryCrossentropy() - log loss (yes/no)
+  + MeadSquaredError() - linear loss
+3 -  Gradient Descent (minimize loss duhhh) (model.fit) - eposh (number of iterations)
 
+Activation functions
+--------------------
+Why use sigmoid - because we wewre doing a lot of log regression
+Others
+- Linear - Linear activiation function (no activation)
+     a = g(z) = w.x + b = z
+- ReLU - rectified linear unit 
+    (if z < 0 -> g(z) is 0)
+    (if z >= 0 -> g(z) is z)
+
+Output Layer Type
+If binary classification - use sigmoid as output layer (duhh)
+If it can be negative or positive - use linear as output (duhh)
+ - e.g. stock change from yesterday
+If it can only be positive - use ReLU (duhhhh)
+ - e.g. price of a house
+
+Hidden Layer Type
+Use ReLU - most common, faster, less flat so the gradient descent will go slower duhh
+
+Why need activation functions?
+ - if we don't then no different than linear regression
+ 
 
