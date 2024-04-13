@@ -11,3 +11,15 @@ a_j [l] = g(w_j[l] . a[l-1] + b_j[l]
 
 forward propogation - moving left to right
 unit - index of the layer (j above)
+
+later_1 = Dense(unit = 3, activation='sigmong')
+layer_2 = Dense(unti = 1, activation='sigmong)
+model = Sequential([layer_1, layer_2])
+
+model.compile()
+model.fit(x,y)
+model.predict(x_new)
+
+ANI = artifial narrow intelligence, narrow task
+AGI = artifical general intelligence, do anything a human can do
+
