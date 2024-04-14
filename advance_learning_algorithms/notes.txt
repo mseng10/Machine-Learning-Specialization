@@ -94,5 +94,24 @@ Convolutional Layer -each neuron is a function of subset activation outputs of t
  - needs less data
  - less prone to overfitting
 
-Back Propogation
-----------------
+Debugging...
+------------
+diagnostic - a test you can run to see what's going wrong
+
+method 1 - 
+ prob - notice overfitting
+ soln - split data set into subsets 
+  - 1 training set
+  - 2 test set
+  - compare the loss of training set vs test set 
+    - if training set loss is low and test set is high -> not good
+      - that means it does not handle new data well at all
+  - NOTE: for classiciation (compare misclassifications)
+
+method 2
+ - split it 3 subsets 
+  - 1: training set (e.g. 60%)
+  - 2: cross validation set (e.g. 20%)
+  - 3: test set (e.g. 20%)
+
+ 
