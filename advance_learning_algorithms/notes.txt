@@ -114,4 +114,26 @@ method 2
   - 2: cross validation set (e.g. 20%)
   - 3: test set (e.g. 20%)
 
- 
+
+Variance/Bias
+-------------
+TODO: add other notes..
+- neural networks are low bias machines
+
+
+The How To...
+1 - Choose Architecture
+2 - training
+3 - Diagnose
+4 - Repeat until convergence ;)
+
+
+Data Augmentation - modifying an existing training example to create a new one.
+Data Synthesis - creating new data from scratch (not from existing)
+Transfer Learning - chnage output layer of other model with yours (:0)
+
+Cycle:
+1 - Define Project
+2 - Define and collect data
+3 - Training, error analysis & iterative improvement
+4 - deploy, monitor, and maintain system
