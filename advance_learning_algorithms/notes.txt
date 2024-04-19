@@ -137,3 +137,9 @@ Cycle:
 2 - Define and collect data
 3 - Training, error analysis & iterative improvement
 4 - deploy, monitor, and maintain system
+
+
+Decision Trees
+--------------
+root node - top node (duhh)
+Algorithm - determines best tree 
