@@ -143,3 +143,11 @@ Decision Trees
 --------------
 root node - top node (duhh)
 Algorithm - determines best tree 
+Decision 1 - How to choose what feature to split on at each node
+ - maximize purity
+ - minimize impurity
+
+Decision 2 - When to stop splitting
+ - When a node is 100% 1 class
+ - When splitting a node will result in the tree exeeding a maximum depth
+
