@@ -1,0 +1,27 @@
+unsupervised learning - ask the alg. to find commonalities in data
+clustering - find if the data can be grouped
+
+k meanns
+ - intiial guess at cluster centroids
+ - see which ones are closest 
+ - pick new centroids until convergence 
+
+
+k-means alg.
+ 1) Randomly intiialize K cluster centroids (k is number axis)
+ 2) for i to  m: find which ones are cloesest
+ 3) Move cluster centroids
+ 
+cost function of k means - minimize average square distance for datapoints to their cluster
+
+intiializing k-means
+ - choose K < m 
+ 1) randomly pick K training examples
+ 2) Set u_1..k equal to these K examples (bing bong)
+ 3) Run different times to pick best intiializer
+  - minimizing cluster centroids 
+
+anomoly detection
+
+density estimation - find features of x that have low/high probaility
+
