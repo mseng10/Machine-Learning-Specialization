@@ -23,5 +23,32 @@ intiializing k-means
 
 anomoly detection
 
-density estimation - find features of x that have low/high probaility
+Gaussian (Normal) Detection - duhhhhhhh
+ - mean, variance ,etc.
 
+density estimation - find features of x that have low/high probaility
+ - p(x) < epsilon
+ - p(x) = p(x_1;u_1,o_1) *... p(x_n;u_n,o_n) (assumes independadnt)
+ 
+1) Choose n features
+2) fit parameters
+3) p(x) = sum (p(x_j;u_j,o_j))
+
+anomalous - rare or ananomly
+
+could train on dataset with good/bad to get episolon
+
+anomoly vs supervised
+ - anomoly 
+   + small number of positive examples
+   + large number of negative examples
+   + many different positive examples (e.g. many things can go wrong in air craft enginge)
+   + used to help find new issues (never before seen)
+
+anomoly feature choices
+ - ensure feature are gaussian (or change them to be more gaussian)
+   + plt.hist(x)
+ - error ananlysis - see where alg. is not doing so good
+   + p(x) >= e is large for Normal
+   + common error -> p(x) is large for both
+ 
