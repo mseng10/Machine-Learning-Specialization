@@ -151,3 +151,18 @@ Decision 2 - When to stop splitting
  - When a node is 100% 1 class
  - When splitting a node will result in the tree exeeding a maximum depth
 
+Random Forest Algorithm
+ - Use sampling with replacement to create a new training set of size machines - 
+ - Train decision tree on the new dataset
+ - at each node, when choosing a feature to use to split if n features are available
+   , pick a random subset of k<n features and allow the alg. to only choose 
+   from that subset of features
+
+Boosted Deicison Tree Alg.
+ - instead of picking from all examples, make it more likely to pick
+   misclassified examples from previously trained Trees
+ 
+When to use a decision tree?
+ - trees - use on tabular data (also fast to train)
+ - not trees - audio, text, images
+
