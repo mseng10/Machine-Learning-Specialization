@@ -52,3 +52,16 @@ anomoly feature choices
    + p(x) >= e is large for Normal
    + common error -> p(x) is large for both
  
+Recommender Systems
+-------------------
+can use linear regression to suggest values for a user (review)
+
+
+what happens if we don't have quantitfyig values ? 
+--> collaborative filtering alg.
+ - use x features to determine who rates what as what
+   + little scary we give this to the user... 
+
+You can join the 2 cost functions of learning the features and params to a single cost function
+ - make w,b,x parameters!
+ex) movie rating system where people have rated
