@@ -65,3 +65,14 @@ what happens if we don't have quantitfyig values ?
 You can join the 2 cost functions of learning the features and params to a single cost function
  - make w,b,x parameters!
 ex) movie rating system where people have rated
+
+with binary data --> just use logistic regresion!
+ - duhhhhhhh
+
+mean nornalization - use it to run quicker/cleaner for collaborative filtering
+ - 0 row mean
+
+Content Based Filtering - recommend items based on features of user and item to find a good match
+ - not ratings of users (which is a feature... odd)
+ - e.g. age of user, year movie was made, etc
+
