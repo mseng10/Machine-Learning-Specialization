@@ -75,4 +75,28 @@ mean nornalization - use it to run quicker/cleaner for collaborative filtering
 Content Based Filtering - recommend items based on features of user and item to find a good match
  - not ratings of users (which is a feature... odd)
  - e.g. age of user, year movie was made, etc
+ - use deep learning!
+
+turn x features in a vector that can "summarize the x features"
+take vectors of both sets of features and dot product them together
+features matters!!!
+computationally expensive if a large catelog of data x features
+
+
+
+Resinforcement Learning 
+ - reward feedback loop
+ - state -> action
+
+ return - what you get from taking a set of actions (worth)
+ discount rate - like interest, 
+ policy - maps state to action
+ QAS - ppssihle actions at a state
+  - 1: start in state s
+  - 2: take action a 
+  - 3: 
+Bellman Equation - Q(s,a) = R(s) + (y) * max Q(s',a')
+ - s', a' - state and action in next state
+ - R - return of current state
+ - y = discount rate
 
